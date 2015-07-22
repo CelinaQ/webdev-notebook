@@ -278,3 +278,16 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+/*Start Celina Style*/
+
+article {
+  background-color: ;
+  border: 1px solid gray;
+  border-radius: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1rem;
+  margin-left: 0;
+  padding: 0 1rem 1rem 1rem;
+  width: 20rem;
+}
