@@ -312,10 +312,14 @@ body {
     background-color: #617C83;
 }
 
-h1 {
-  color: #B17D4B:
+h1, h2 {
+  color: #463728;
 }
 
-h2 {
+header {
+  background: #B17D4B;
+}
+
+nav a, nav a:visited {
   color: #463728;
 }
