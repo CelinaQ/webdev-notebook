@@ -282,12 +282,14 @@ textarea {
 /*Start Celina Style*/
 
 article {
-  background-color: ;
-  border: 1px solid gray;
+  background-color: #8ABFCF;
+  border: 2px solid #B17D4B;
   border-radius: 2px;
+  color: #30383C;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-left: 0;
+  margin-right: 2rem;
   padding: 0 1rem 1rem 1rem;
   width: 20rem;
 }
@@ -303,6 +305,17 @@ ul#nav li {
 .flexContainer {
   display: flex;
   flex-flow: wrap;
-  justify-content: space-around;
+  justify-content: center;
+}
 
+body {
+    background-color: #617C83;
+}
+
+h1 {
+  color: #B17D4B:
+}
+
+h2 {
+  color: #463728;
 }
