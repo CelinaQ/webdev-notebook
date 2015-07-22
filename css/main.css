@@ -291,3 +291,18 @@ article {
   padding: 0 1rem 1rem 1rem;
   width: 20rem;
 }
+
+ul#menu li {
+    display:inline;
+}
+
+ul#nav li {
+    display:inline;
+}
+
+.flexContainer {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+
+}
