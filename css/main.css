@@ -280,6 +280,9 @@ textarea {
 }
 
 /*Start Celina Style*/
+.content {
+  padding-top: 10rem;
+}
 
 article {
   background-color: #8ABFCF;
@@ -287,11 +290,13 @@ article {
   border-radius: 2px;
   color: #30383C;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 2rem;
+  margin-top: 0rem;
   margin-left: 0;
   margin-right: 2rem;
+  margin-bottom: 2rem;
   padding: 0 1rem 1rem 1rem;
   width: 20rem;
+  box-shadow: 0 0 0 1px #fff inset;
 }
 
 header {
@@ -301,7 +306,9 @@ header {
 }
 
 #nav a, #nav a:visited {
-  color: #463728;
+  /*color: #463728;*/
+  color: #fff;
+
 }
 
 ul#nav li {
@@ -309,17 +316,21 @@ ul#nav li {
 }
 
 #menu a, #menu a:visited {
-  color: #463728;
+  /*color: #463728;*/
+  color: #fff;
 }
 
 ul#menu li {
-    display:inline;
+    display: inline;
+    float: right;
+    margin-right: 2rem;
 }
 
 .flexContainer {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
+  padding-top: 1rem;
 }
 
 body {
@@ -334,6 +345,26 @@ header {
   background: #B17D4B;
 }
 
+h1 {
+  padding: 0 0 0 2rem;
+}
+
 h2 {
+  /*background: #B17D4B;*/
   padding: 0rem 0rem 0rem 2rem;
+}
+
+#footerflexContainer {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+/*#whiteArticle {
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 2px;*/
+
+
 }
