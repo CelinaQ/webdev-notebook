@@ -294,11 +294,25 @@ article {
   width: 20rem;
 }
 
-ul#menu li {
-    display:inline;
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+#nav a, #nav a:visited {
+  color: #463728;
 }
 
 ul#nav li {
+    display:inline;
+}
+
+#menu a, #menu a:visited {
+  color: #463728;
+}
+
+ul#menu li {
     display:inline;
 }
 
@@ -320,6 +334,6 @@ header {
   background: #B17D4B;
 }
 
-nav a, nav a:visited {
-  color: #463728;
+h2 {
+  padding: 0rem 0rem 0rem 2rem;
 }
