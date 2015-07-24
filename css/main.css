@@ -335,6 +335,7 @@ ul#menu li {
 
 body {
     background-color: #617C83;
+    background: linear-gradient(#617C83,#463728);
 }
 
 h1, h2 {
@@ -364,7 +365,17 @@ h2 {
 /*#whiteArticle {
   border: 1px solid #fff;
   background-color: transparent;
-  border-radius: 2px;*/
+  border-radius: 2px;
+  }*/
 
+#JavaScript {
+    color: #31261C;
+  }
 
+#Tools {
+    color: #231C14;
+  }
+
+#CSS {
+    color:
 }
